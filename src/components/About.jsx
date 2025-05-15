@@ -23,8 +23,21 @@ const About = () => {
         transition={{duration:0.5}}
         className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:justify-start">
-                    <p className="my-2 maxw-xl py-6" >{ABOUT_TEXT}</p>
+                <div className="max-w-xl py-6">
+  {ABOUT_TEXT.split('\n').map((line, i) => (
+    <p key={i} className="mb-2 text-neutral-400 leading-relaxed">{line}</p>
+  ))}
+</div>
+
+
                 </div>
+                <a 
+  href="/Resume_Parth.pdf" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="inline-block mt-2 text-sm font-medium text-purple-400 underline hover:text-purple-300 transition">
+  View My Resume
+</a>
             </motion.div>
       </div>
     </div>

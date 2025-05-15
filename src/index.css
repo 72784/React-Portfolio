@@ -9,3 +9,7 @@
 :root{
   font-family: "Inter",sans-serif;
 }
+
+.description-text {
+  white-space: pre-line;
+}

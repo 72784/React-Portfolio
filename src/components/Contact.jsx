@@ -15,13 +15,6 @@ const Contact = () => {
         transition={{duration:1}}
         className="my-2">{CONTACT.phoneNo}</motion.p>
         <div>
-        <a
-          className="my-2 inline-block text-purple-300 underline hover:text-purple-400"
-          href="/Resume_Parth.pdf"
-          download
-        >
-        Download Resume
-        </a>
         </div>
         <a href="#" className="border-b my-2">{CONTACT.email}</a>
         
