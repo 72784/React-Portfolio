@@ -6,6 +6,7 @@ import { DiMsqlServer } from "react-icons/di";
 import { SiDotnet } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
+import { DiJavascript1 } from "react-icons/di";
 
 import { motion } from "framer-motion";
 const iconVariants = (duration)=>({
@@ -74,6 +75,12 @@ const Technologies = () => {
                         initial="initial"
                         animate="animate"className="rounded-2xl border-4 border-neutral-800 p-4">
             <FaPython className="text-7xl text-yellow-700"/>
+        </motion.div>
+        <motion.div 
+                        variants={iconVariants(8)}
+                        initial="initial"
+                        animate="animate"className="rounded-2xl border-4 border-neutral-800 p-4">
+            <DiJavascript1 className="text-7xl text-yellow-700"/>
         </motion.div>
         <motion.div 
                         variants={iconVariants(5)}
