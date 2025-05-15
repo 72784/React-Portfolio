@@ -6,6 +6,18 @@ I thrive on solving complex challenges—whether it’s developing scalable web 
 
 Outside of coding, I enjoy exploring new cuisines, hiking scenic trails, and traveling to new places—experiences that fuel my creativity in tech. If you’re looking for a developer who blends technical expertise with data-driven problem-solving, let’s connect!`
 
+export const Educations = [{
+  year: "August 2023 - May 2025",
+  degree: "Master of Science in Computer Science",
+  company: " California State University - Sacramento",
+  gpa: "3.8"
+},{
+  year: "August 2019 - May 2023",
+  degree: "Bachelor of Engineering in Information and Communication Technology",
+  company: " Gujarat Technological University",
+  gpa: "3.6"
+}]
+
 export const EXPERIENCES = [
     {
     year: "January 2024 - Present",
