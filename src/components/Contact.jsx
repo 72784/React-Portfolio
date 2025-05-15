@@ -16,8 +16,8 @@ const Contact = () => {
         className="my-4">{CONTACT.phoneNo}</motion.p>
         <div>
         <a
-          className="my-4 inline-block underline text-purple-300"
-          href="/resume.pdf"
+          className="my-10 inline-block text-purple-300 underline hover:text-purple-400"
+          href="/Resume_Parth.pdf"
           download
         >
         Download Resume
