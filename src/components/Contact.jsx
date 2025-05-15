@@ -10,17 +10,22 @@ const Contact = () => {
       transition={{duration:1}}
       className="my-10 text-center text-4xl">Get in Touch</motion.h2>
       <div className="text-center tracking-tighter">
-        <motion.p 
-        whileInView={{opacity:1,x:0}}
-        initial={{opacity:0,x:-60}}
-        transition={{duration:1}}
-        className="my-4">{CONTACT.address}</motion.p>
         <motion.p         whileInView={{opacity:1,x:0}}
         initial={{opacity:0,x:60}}
         transition={{duration:1}}
         className="my-4">{CONTACT.phoneNo}</motion.p>
-        <a 
-                href="#" className="border-b">{CONTACT.email}</a>
+        <div>
+        <a
+          className="my-4 inline-block underline text-purple-300"
+          href="/resume.pdf"
+          download
+        >
+        Download Resume
+        </a>
+        </div>
+        <a href="#" className="border-b my-4">{CONTACT.email}</a>
+        
+        
       </div>
     </div>
   )
