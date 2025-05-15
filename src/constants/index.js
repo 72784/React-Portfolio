@@ -20,7 +20,7 @@ export const Educations = [{
 
 export const EXPERIENCES = [
     {
-    year: "January 2024 - Present",
+    year: "January 2024 - May 2025",
     role: "Web Developer Student Assistant",
     company: " CSU Sacramento",
     description: `
