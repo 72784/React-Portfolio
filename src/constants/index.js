@@ -14,8 +14,19 @@ export const Educations = [{
 }]
 
 export const EXPERIENCES = [
+  {
+    year: "April 2025 - Present",
+    role: "Research Volunteer – Applied Machine Learning",
+    company: " CSU Sacramento",
+    description: `•Conducting research on applying machine learning to LiDAR data for surface and material classification.
+•Developing preprocessing pipelines to clean and aggregate millions of 3D point cloud records into structured patch-level datasets.
+•Training ML models (XGBoost, Neural Networks) to predict reflection properties of surfaces, improving classification results over raw baselines.
+•Analyzing feature importance and confusion matrices to improve interpretability and model reliability.
+•Gaining hands-on experience in Python, data engineering, and ML model evaluation while working in a collaborative academic setting.`,
+ technologies: ["Python", "R", "SQL", "MATLAB"],
+  },
     {
-    year: "January 2024 - May",
+    year: "January 2024 - May 2025",
     role: "Web Developer Student Assistant",
     company: " CSU Sacramento",
     description: `• Developed and maintained responsive web applications for CSUS Technology Department using HTML5, CSS3, JavaScript (ES6), and PHP.\n• Enhanced online platforms by implementing client-side validation and efficient form handling.\n• Managed version control with Git, collaborating via code reviews and merge requests.\n• Provided Tier 1 & Tier 2 technical support, troubleshooting hardware, software, and network issues for students, faculty, and staff.`,
